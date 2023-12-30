@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "topdeals",
+  "info": {
+    "singularName": "topdeal",
+    "pluralName": "topdeals",
+    "displayName": "topdeal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "discountPercent": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "originalPrice": {
+      "type": "decimal"
+    },
+    "discountedPrice": {
+      "type": "decimal"
+    },
+    "ratings": {
+      "type": "string"
+    }
+  }
+}

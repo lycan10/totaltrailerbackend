@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "checkouts",
+  "info": {
+    "singularName": "checkout",
+    "pluralName": "checkouts",
+    "displayName": "Checkout",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string"
+    },
+    "streetAddress": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "zipCode": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
